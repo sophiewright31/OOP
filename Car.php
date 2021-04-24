@@ -1,5 +1,6 @@
 <?php
 require_once 'Vehicle.php';
+require_once 'LightableInterface.php';
 
 final class Car extends Vehicle implements LightableInterface
 {
